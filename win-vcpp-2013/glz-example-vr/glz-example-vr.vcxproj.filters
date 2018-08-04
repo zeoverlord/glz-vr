@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="2d">
+      <UniqueIdentifier>{4b328a90-f2a7-4eec-b1c7-779c1c7f8392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3d">
+      <UniqueIdentifier>{ec0b2e53-337e-4be4-b825-bbf7324e1487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{e23067e4-0f1f-472a-b221-998a68c2abfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effects">
+      <UniqueIdentifier>{cb185449-5397-4da2-84e0-d438468430d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{18c3a644-f054-4ab2-ae35-e096820f0043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{12fb7e8c-1b05-41bb-b239-8646a353e09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{639be047-105c-4660-876a-5a09cb80df15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state">
+      <UniqueIdentifier>{19c42207-29a4-498d-8612-33416c4067ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="layout">
+      <UniqueIdentifier>{9b86967c-b060-4d74-b9ec-c57081295460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image\png">
+      <UniqueIdentifier>{47e5a103-ce85-492c-803d-fcd490ee17ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{32db6a8c-c4f0-4816-a4ff-3338b7149800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{3a91e9a5-354c-4df1-a83f-b8881aafdef7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\glz-basecode\win\zeobase2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\2d\2d-graph.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\2d\geo-2d.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\3d\geo-generate.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\3d\geo.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\image\tex.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\effects\particle.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\shader\shader.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\tiletools.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\type.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\vectormath.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\glz.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\resourcemanager.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\app\appbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\2d\2d-utilities.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\input\input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\sprite.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\color.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\framebuffer.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\example3d\Example_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\example3d\bootStrap_example3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-basecode\win\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\state\baseState.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\layout\viewport.cpp">
+      <Filter>layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\state\stateManager.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\image\png\lodepng.cpp">
+      <Filter>image\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\image\imagePNG.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\image\imageTGA.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\object\object.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\node3.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\sound\SoundManager.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\sound\aldlist.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\glz-core\utilities\filetype.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\glz-basecode\win\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-basecode\win\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-basecode\win\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-basecode\win\zeobase2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\2d\2d-graph.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\2d\geo-2d.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\3d\geo-generate.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\3d\primitives.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\3d\geo.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\image\tex.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\effects\particle.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\shader\shader.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\shader\shader-programs.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\resourcemanager.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\tiletools.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\type.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\vectormath.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\glz.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\app\appbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\2d\2d-utilities.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\input\input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\color.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\sprite.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\framebuffer.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\example3d\Example_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\state\baseState.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\layout\viewport.h">
+      <Filter>layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\state\stateManager.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\shader\shader-programs-legacy.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\image\png\lodepng.h">
+      <Filter>image\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\image\imagePNG.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\image\imageTGA.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\object\object.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\node3.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\sound\SoundManager.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\sound\aldlist.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\image\textureData.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glz-core\utilities\filetype.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\glz-basecode\win\small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\glz-basecode\win\zeobase2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\glz-basecode\win\zeobase2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
